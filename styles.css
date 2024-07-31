@@ -1,0 +1,37 @@
+nav{
+    height: 20vh;
+    color: white;
+    background-color: #792294;
+}
+.products{
+    font-size: 30px;
+    font-weight: 400;
+}
+.boxes{
+    background-color: #792294;
+    width: 300px;
+    height: 250px;
+}
+.about-content{
+    height: 250px;
+    overflow-y: auto;
+}
+.about-box{
+    background-color: #792294;
+    width: 500px;
+    height: 300px;
+}
+.footer{
+    background-color: #792294;
+}
+.foot-box{
+    background-color: white;
+    height: 20vh;
+    width: 250px;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .foot-box {
+      height: 20vh;
+      width: 200px;
+    }
+  }
